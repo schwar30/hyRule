@@ -1,14 +1,16 @@
 Package: hyRule
-Title: What the Package Does (One Line, Title Case)
+Title: A Bunch of Useful Functions
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
+Authors@R:
+    person(given = "Rob",
+           family = "Schwartz",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "rschwartz@kennedyc.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+Description: This is just a package that saves a lot of the packages that
+    I think are useful
+License: No Licence
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Imports: binman, wdman
