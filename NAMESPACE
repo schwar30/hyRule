@@ -3,3 +3,8 @@
 export(fix_spaces)
 export(get_chrome_list)
 export(get_in_between)
+export(is_error)
+export(len0)
+export(nrow0)
+export(silent_as_numeric)
+export(trans_data_frame)

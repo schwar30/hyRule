@@ -1,8 +1,8 @@
 #' Gets list of indices between specified indicies
 #'
 #' @description This is a function that will get all in between values of what needs to be a vector.
-#' Maybe at some point I'll figure out how to include other object types, but maybe that's not all that
-#' essential anyway.
+#'     Maybe at some point I'll figure out how to include other object types, but maybe that's not all that
+#'     essential anyway.
 #'
 #' @param vector Desired vector to get
 #' @param indices Specific indices to calculate in between values
@@ -10,11 +10,11 @@
 #' @param include_end Includes the last index, even if not in the selected indices
 #'
 #' @details The power of this function is getting sequencing between selected values. In the past,
-#' I've used this to sequence things such as pdf's which often have different titles that I either
-#' need to remove or append.
+#'     I've used this to sequence things such as pdf's which often have different titles that I either
+#'     need to remove or append.
 #'
-#' Keep in mind that this currently only works with vectors and only exports lists of what the sequences
-#' actually are.
+#'     Keep in mind that this currently only works with vectors and only exports lists of what the sequences
+#'     actually are.
 #'
 #' @export
 get_in_between <- function(vector, indices, include_start = T, include_end = T) {
@@ -84,14 +84,14 @@ get_in_between <- function(vector, indices, include_start = T, include_end = T) 
 #' Fixes spacing issues
 #'
 #' @description Adjusts multi-spaces to be condensed to single spaces and removes
-#' any spaces that would originate at the beginning or end of a vector
+#'     any spaces that would originate at the beginning or end of a vector
 #'
 #' @param vector String vector to have spacing corrected
 #'
 #' @details Not anything super-fancy, but in a pinch, this function can remove
-#' the extra spaces that are often given when removing pdf information. Often, there
-#' are also spaces listed at the beginning or the end which we want to remove, and
-#' this does that as well
+#'     the extra spaces that are often given when removing pdf information. Often, there
+#'     are also spaces listed at the beginning or the end which we want to remove, and
+#'     this does that as well
 #'
 #' @export
 fix_spaces <- function(vector) {

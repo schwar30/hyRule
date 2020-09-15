@@ -17,14 +17,14 @@ get_in_between(vector, indices, include_start = T, include_end = T)
 }
 \description{
 This is a function that will get all in between values of what needs to be a vector.
-Maybe at some point I'll figure out how to include other object types, but maybe that's not all that
-essential anyway.
+    Maybe at some point I'll figure out how to include other object types, but maybe that's not all that
+    essential anyway.
 }
 \details{
 The power of this function is getting sequencing between selected values. In the past,
-I've used this to sequence things such as pdf's which often have different titles that I either
-need to remove or append.
+    I've used this to sequence things such as pdf's which often have different titles that I either
+    need to remove or append.
 
-Keep in mind that this currently only works with vectors and only exports lists of what the sequences
-actually are.
+    Keep in mind that this currently only works with vectors and only exports lists of what the sequences
+    actually are.
 }

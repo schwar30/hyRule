@@ -11,11 +11,11 @@ fix_spaces(vector)
 }
 \description{
 Adjusts multi-spaces to be condensed to single spaces and removes
-any spaces that would originate at the beginning or end of a vector
+    any spaces that would originate at the beginning or end of a vector
 }
 \details{
 Not anything super-fancy, but in a pinch, this function can remove
-the extra spaces that are often given when removing pdf information. Often, there
-are also spaces listed at the beginning or the end which we want to remove, and
-this does that as well
+    the extra spaces that are often given when removing pdf information. Often, there
+    are also spaces listed at the beginning or the end which we want to remove, and
+    this does that as well
 }
